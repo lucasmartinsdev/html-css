@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2d3436;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 15px 0px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.507);
+        }
+
+        h1 {
+            box-shadow: inset 3px 3px 14px 6px rgba(0, 0, 0, 0.432);
+        }
+
+        nav {
+            background-color: #636e72;
+            padding: 3px;
+            /* sprad ↓ */
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.459);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            background-color: #4a5255;
+            border-radius: 3px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(49, 49, 49);
+        }
+
+        nav>a:active {
+            background-color: rgb(49, 49, 49);
+            color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, 0.664);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 0px 15px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.507);
+
+        }
+
+        article {
+            background-color: #b2bec39f;
+            padding: 5px;
+        }
+
+        article>p {
+            text-align: justify;
+            padding: 5px;
+            text-indent: 30px;
+            
+        }
+
+        article>aside {
+            background-color: rgb(49, 49, 49);
+            color: white;
+            width: 177px;
+            text-align: center;
+        }
+        
+
+        div#perfil {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 15px 0px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.507);
+        }
+
+        div#perfil>p {
+            padding: 5px;
+            text-align: justify;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+
+        footer {
+            background-color: black;
+            color: rgba(245, 245, 220, 0.534);
+            text-align: center;
+            padding: 4px;
+            margin: 10px 10px 10px 10px;
+            border-radius: 0px 0px 0px 15px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.507);
+        }
+
+        footer>p {
+            margin: 0px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, distinctio saepe! Sint ratione
+                    alias laboriosam at veniam autem repudiandae, corporis consequuntur consectetur accusamus culpa
+                    dolore necessitatibus debitis ab beatae nesciunt!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem delectus et vero? Autem ad hic
+                    necessitatibus eum ex officia vitae aspernatur id? Dignissimos deleniti illo quia ipsa libero earum
+                    et. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus rerum ratione nemo tempora,
+                    provident voluptates nam nobis in voluptatem ullam ipsa mollitia est fuga, accusamus, corporis
+                    quibusdam. Odio, nihil soluta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
+                    dignissimos natus eaque autem delectus quod id impedit voluptatem praesentium? Alias, odit animi quo
+                    vel ullam ducimus corrupti voluptatem explicabo expedita.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur possimus porro! Aliquid,
+                    soluta, aperiam quas culpa minima nesciunt blanditiis ipsum quaerat maiores consequatur molestias
+                    iure, earum quo inventore! Culpa?</p>
+                <aside>
+                    <p>Artigo escrito por José da Slva </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+
+    <div id="perfil">
+        <div id="bola">
+            <img src="minha-foto.jpg" alt="Minha Foto" style="height: 100px; width: 100px; border-radius: 50%;">
+
+        </div>
+        <p>Oi! Meu nome é Lucas, e esse é o meu site de estudo. </p>
+    </div>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados. Desenvolvido por Lucas Martins</p>
+    </footer>
+
+</body>
+
+</html>

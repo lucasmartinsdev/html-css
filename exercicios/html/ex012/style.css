@@ -1,0 +1,39 @@
+header{
+    color: #00BEB9;
+    display:block;
+    background: #00000093;
+    margin: -10px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    text-align: start;
+    border-bottom: 3px solid #A85751;
+}
+.head{
+    font: bold 12pt Arial;
+    margin: 1%;
+    
+}
+
+.bar{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+video, iframe{
+    border: 2px solid #A85751;
+    border-radius: 10px;
+}
+
+body{
+    font: bold 10pt Arial;
+    color: #EDDFEF;
+    background: #312F2F;
+    text-align: center;
+    border-bottom: 3px solid #A85751;
+}
+
+/* *{
+    border: 2px solid #1666c259;
+} */

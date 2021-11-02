@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/nac-11.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body
+    style="align-items: center; margin: auto; margin-top: 0; background: #122c41; color: #dcdde1; font: bold 10pt Arial; text-align: center;">
+    <header style="background: #2f3640; margin-top: -2%; ">
+        <h1 style="font: bold 20pt Arial; color: #0097e6; padding: 0.9%;"> Nachoplay <img src="imagens/nacho1.png"
+                alt=""></h1>
+
+    </header>
+    <div
+        style="border: solid 1px; border-radius: 10px; width: auto; text-align: center; background: rgba(0, 0, 0, 0.658);">
+        <h1>Seja bem vindo ao <strong style="color: #e84118;">NACHOPLAY</strong>!</h1>
+        <p>Aqui irei testar coisas novas que estou aprendendo, por isso o site pode soar bem amador.</p>
+    </div>
+    <h2>Imagem Dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador.</p>
+    <div>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexível">
+
+        </picture>
+    </div>
+
+    <h2>Minhas Imagens Dinâmicas</h2>
+    <p>À seguir, vou usar uma imagem, que eu mesmo criei, de forma dinâmica</p>
+    
+    <picture>
+        <source media="(max-width: 363px)" srcset="imagens/nacho-156.png" type="image/png">
+        <source media="(max-width: 676px)" srcset="imagens/nacho-313.png" type="image/">
+        <img src="imagens/nacho.png" alt="Logo do Nachoplay">
+    </picture>
+    <h2>Reproduzindo áudios</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/allegro.mp3" controls></audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para
+                baixar o arquivo MP3</a></p>
+    </audio>
+
+    <!-- formatos de áudio → MP3 WAV OGG -->
+</body>
+
+</html>

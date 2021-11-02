@@ -1,0 +1,43 @@
+header{
+    
+    display:block;
+    background: #00000093;
+    margin: -10px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    text-align: center;
+    border-bottom: 3px solid #74b9ff;
+}
+ 
+
+    
+
+
+body{
+    
+    font: bold 10pt Arial;
+    color: #FF6F59;
+    background: #312F2F;
+    text-align: center;
+    align-items: center;
+}
+
+video, iframe, .thumb1, .thumb2, .thumb3, .thumb4{
+    border: 2px solid #84DCCF;
+    border-radius: 10px;
+}
+
+h2{
+    color: #BCCCE0;
+}
+
+.bar{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+
+
+

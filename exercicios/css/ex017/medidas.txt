@@ -1,0 +1,13 @@
+Medidas:
+
+font-size: 
+
+Medidas Absolutas
+cm, mm, in(polegada), px, pt, pc(paica)
+Ponto e paica são medidas da tipografia de  papel.
+
+
+Medidas Relativas
+em (medida relativa ao tamanho atual da fonte), ex (relativo à altura X de uma fonte), rem (tipo o 'em', só que relativo ao root, a fonte que está configurada no 'body'), vw (view width = largura da viewport, sendo a viewport a largura da sua tela), vh (altura da viewport), % 
+
+16px geralmente é igual à 1em
